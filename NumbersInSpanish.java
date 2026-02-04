@@ -20,7 +20,7 @@ public class NumbersInSpanish {
                         System.out.println("cinco");
                         break;
                     default:
-                        System.out.println("Enter a number between 1 and 5");
+                        System.out.println("Sorry I do not know that!");
                 }
             }
         }
