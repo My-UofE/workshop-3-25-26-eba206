@@ -15,17 +15,21 @@ public class SumSquares {
         // System.out.println("Hi " + name + "!");
 
         System.out.print("Please enter the start value: ");
-        int startNum = in.nextInt(); // Reads in an int from standard input
-        
+        int startNum = in.nextInt(); 
         System.out.print("Please enter the end value: ");
         int endNum = in.nextInt();
 
         int sum = 0;
-        for (int i = startNum; i <= endNum; i++) {
+        int i = startNum;
+
+        
+        while (i <= endNum) {
             sum += i * i;
+            i++; 
         }
 
         System.out.println("Sum of squares from " + startNum + " to " + endNum + ":");
         System.out.println(sum);
     } 
-}
+} 
+
